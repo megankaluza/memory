@@ -1,38 +1,87 @@
 $(document).ready(function(){
-
+  var firstGuess;
+  var secondGuess;
+  var firstGuessId;
+  var secondGuessId;
+  var currentGuess = 1;
   $('#card1-back').click(function(){
-    // event.preventDefault();
-
-    $('#card1-back').toggle();
-    $('#card1-face').toggle();
+    $('#card1').children().toggle();
+    if(currentGuess === 1){
+      firstGuess = jQuery(this).attr('value');
+      currentGuess = 2;
+    }else{
+      secondGuess = jQuery(this).attr('value');
+    }
   });
   $('#card2-back').click(function(){
-    $('#card2-back').toggle();
-    $('#card2-face').toggle();
+    $('#card2').children().toggle();
+    if(currentGuess === 1){
+      firstGuess = jQuery(this).attr('value');
+      currentGuess = 2;
+    }else{
+      secondGuess = jQuery(this).attr('value');
+    }
   });
   $('#card3-back').click(function(){
-    $('#card3-back').toggle();
-    $('#card3-face').toggle();
+    $('#card3').children().toggle();
+    if(currentGuess === 1){
+      firstGuess = jQuery(this).attr('value');
+      currentGuess = 2;
+    }else{
+      secondGuess = jQuery(this).attr('value');
+    }
   });
   $('#card4-back').click(function(){
-    $('#card4-back').toggle();
-    $('#card4-face').toggle();
+    $('#card4').children().toggle();
+    if(currentGuess === 1){
+      firstGuess = jQuery(this).attr('value');
+      currentGuess = 2;
+    }else{
+      secondGuess = jQuery(this).attr('value');
+    }
   });
   $('#card5-back').click(function(){
-    $('#card5-back').toggle();
-    $('#card5-face').toggle();
+    $('#card5').children().toggle();
+
+    if(currentGuess === 1){
+      firstGuess = jQuery(this).attr('value');
+      currentGuess = 2;
+    }else{
+      secondGuess = jQuery(this).attr('value');
+    }
   });
   $('#card6-back').click(function(){
-    $('#card6-back').toggle();
-    $('#card6-face').toggle();
+    $('#card6').children().toggle();
+    if(currentGuess === 1){
+      firstGuess = jQuery(this).attr('value');
+      currentGuess = 2;
+    }else{
+      secondGuess = jQuery(this).attr('value');
+    }
   });
   $('#card7-back').click(function(){
-    $('#card7-back').toggle();
-    $('#card7-face').toggle();
+    $('#card7').children().toggle();
+    if(currentGuess === 1){
+      firstGuess = jQuery(this).attr('value');
+      currentGuess = 2;
+    }else{
+      secondGuess = jQuery(this).attr('value');
+    }
   });
   $('#card8-back').click(function(){
-    $('#card8-back').toggle();
-    $('#card8-face').toggle();
+    $('#card8').children().toggle();
+    if(currentGuess === 1){
+      firstGuess = jQuery(this).attr('value');
+      currentGuess = 2;
+    }else{
+      secondGuess = jQuery(this).attr('value');
+    }
   });
+  if(currentGuess === 2){
+    var match = checkForMatch(firstGuess, secondGuess);
+      if(match !== true){
+
+      }
+  }
 
 });
