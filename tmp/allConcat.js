@@ -17,14 +17,14 @@ $(document).ready(function(){
       secondGuess = jQuery(this).attr('value');
       secondGuessId = jQuery(this).parent().attr('id');
       var match = memory.checkForMatch(firstGuess, secondGuess);
-        if(match !== true){
-          setTimeout(function(){
-            $('#' + firstGuessId).children().toggle();
-            $('#' + secondGuessId).children().toggle();
-          }, 2000);
-        }
-        currentGuess= 1;
+      if(match !== true){
+        setTimeout(function(){
+          $('#' + firstGuessId).children().toggle();
+          $('#' + secondGuessId).children().toggle();
+        }, 2000);
       }
+      currentGuess= 1;
+    }
   });
   $('#card2-back').click(function(){
     $('#card2').children().toggle();
@@ -36,13 +36,13 @@ $(document).ready(function(){
       secondGuess = jQuery(this).attr('value');
       secondGuessId = jQuery(this).parent().attr('id');
       var match = memory.checkForMatch(firstGuess, secondGuess);
-        if(match !== true){
-          setTimeout(function(){
-            $('#' + firstGuessId).children().toggle();
-            $('#' + secondGuessId).children().toggle();
-          }, 2000);
-        }
-        currentGuess= 1;
+      if(match !== true){
+        setTimeout(function(){
+          $('#' + firstGuessId).children().toggle();
+          $('#' + secondGuessId).children().toggle();
+        }, 2000);
+      }
+      currentGuess= 1;
     }
   });
   $('#card3-back').click(function(){
@@ -55,13 +55,13 @@ $(document).ready(function(){
       secondGuess = jQuery(this).attr('value');
       secondGuessId = jQuery(this).parent().attr('id');
       var match = memory.checkForMatch(firstGuess, secondGuess);
-        if(match !== true){
-          setTimeout(function(){
-            $('#' + firstGuessId).children().toggle();
-            $('#' + secondGuessId).children().toggle();
-          }, 2000);
-        }
-        currentGuess= 1;
+      if(match !== true){
+        setTimeout(function(){
+          $('#' + firstGuessId).children().toggle();
+          $('#' + secondGuessId).children().toggle();
+        }, 2000);
+      }
+      currentGuess= 1;
     }
   });
   $('#card4-back').click(function(){
@@ -74,13 +74,13 @@ $(document).ready(function(){
       secondGuess = jQuery(this).attr('value');
       secondGuessId = jQuery(this).parent().attr('id');
       var match = memory.checkForMatch(firstGuess, secondGuess);
-        if(match !== true){
-          setTimeout(function(){
-            $('#' + firstGuessId).children().toggle();
-            $('#' + secondGuessId).children().toggle();
-          }, 2000);
-        }
-        currentGuess= 1;
+      if(match !== true){
+        setTimeout(function(){
+          $('#' + firstGuessId).children().toggle();
+          $('#' + secondGuessId).children().toggle();
+        }, 2000);
+      }
+      currentGuess= 1;
     }
   });
   $('#card5-back').click(function(){
@@ -94,16 +94,15 @@ $(document).ready(function(){
       secondGuessId = jQuery(this).parent().attr('id');
       var match = memory.checkForMatch(firstGuess, secondGuess);
 
-        if(match !== true){
-          setTimeout(function(){
-            $('#' + firstGuessId).children().toggle();
-            $('#' + secondGuessId).children().toggle();
-          }, 2000);
-        }
-        currentGuess= 1;
+      if(match !== true){
+        setTimeout(function(){
+          $('#' + firstGuessId).children().toggle();
+          $('#' + secondGuessId).children().toggle();
+        }, 2000);
       }
+      currentGuess= 1;
+    }
   });
-
   $('#card6-back').click(function(){
     $('#card6').children().toggle();
     if(currentGuess === 1){
@@ -114,13 +113,13 @@ $(document).ready(function(){
       secondGuess = jQuery(this).attr('value');
       secondGuessId = jQuery(this).parent().attr('id');
       var match = memory.checkForMatch(firstGuess, secondGuess);
-        if(match !== true){
-          setTimeout(function(){
-            $('#' + firstGuessId).children().toggle();
-            $('#' + secondGuessId).children().toggle();
-          }, 2000);
-        }
-        currentGuess= 1;
+      if(match !== true){
+        setTimeout(function(){
+          $('#' + firstGuessId).children().toggle();
+          $('#' + secondGuessId).children().toggle();
+        }, 2000);
+      }
+      currentGuess= 1;
     }
   });
   $('#card7-back').click(function(){
@@ -133,13 +132,13 @@ $(document).ready(function(){
       secondGuess = jQuery(this).attr('value');
       secondGuessId = jQuery(this).parent().attr('id');
       var match = memory.checkForMatch(firstGuess, secondGuess);
-        if(match !== true){
-          setTimeout(function(){
-            $('#' + firstGuessId).children().toggle();
-            $('#' + secondGuessId).children().toggle();
-          }, 2000);
-        }
-        currentGuess= 1;
+      if(match !== true){
+        setTimeout(function(){
+          $('#' + firstGuessId).children().toggle();
+          $('#' + secondGuessId).children().toggle();
+        }, 2000);
+      }
+      currentGuess= 1;
     }
   });
   $('#card8-back').click(function(){
@@ -152,13 +151,13 @@ $(document).ready(function(){
       secondGuess = jQuery(this).attr('value');
       secondGuessId = jQuery(this).parent().attr('id');
       var match = memory.checkForMatch(firstGuess, secondGuess);
-        if(match !== true){
-          setTimeout(function(){
-            $('#' + firstGuessId).children().toggle();
-            $('#' + secondGuessId).children().toggle();
-          }, 2000);
-        }
-        currentGuess= 1;
+      if(match !== true){
+        setTimeout(function(){
+          $('#' + firstGuessId).children().toggle();
+          $('#' + secondGuessId).children().toggle();
+        }, 2000);
+      }
+      currentGuess= 1;
     }
   });
 });
